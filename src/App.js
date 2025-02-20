@@ -22,6 +22,7 @@ const App = () => {
             .then(data => setProductos(data.productos))
             .catch(error => console.error("Error al cargar los productos:", error));
     }, []); 
+    /**/
 
     return (
         <div>
